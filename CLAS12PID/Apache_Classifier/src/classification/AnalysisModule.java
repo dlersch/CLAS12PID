@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 //are defined
 //Last date worked on 09/24/17
 //Written by: Daniel Lersch - d.lersch@fz-juelich.de
+//Using: Apache-Spark-FrameWork, CLAS12 reconstruction software
 
 
 import java.util.ArrayList;
