@@ -4,6 +4,7 @@ package classification;
 //Parameters are read in from a config file
 //Last date worked on 10/23/17
 //Written by: Daniel Lersch - d.lersch@fz-juelich.de
+//Using: Apache-Spark-FrameWork, CLAS12 reconstruction software
 
 
 import java.io.FileInputStream;
