@@ -5,6 +5,7 @@ package classification;
 //Also, performance parameter such as the ROC-curves are calculated here
 //Last date worked on: 10/23‚/17
 //Written by: Daniel Lersch d.lersch@fz-juelich.de
+//Using: Apache-Spark-FrameWork, CLAS12 reconstruction software
 
 
 import java.io.FileNotFoundException;
