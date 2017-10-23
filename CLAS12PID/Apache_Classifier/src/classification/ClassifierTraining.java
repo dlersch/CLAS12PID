@@ -6,6 +6,7 @@ package classification;
 //or the number of iterations are read in by a configuration file
 //Last date worked on: 10/16/17
 //Written by: Daniel Lersch d.lersch@fz-juelich.de
+//Using: Apache-Spark-FrameWork, CLAS12 reconstruction software
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
