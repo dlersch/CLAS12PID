@@ -1,0 +1,40 @@
+#This is the configuration file, used for training a classifier with a given data set
+#======================================================================================
+
+#Specifiy directory, folder and name of the training data set:
+BASEDIR: /Users/daniellersch/Desktop/CLAS/NN_studies/Apache_Classifier/
+DATADIR: /Users/daniellersch/Desktop/CLAS/NN_studies/Apache_Classifier/
+TRAININGDATA: sample
+NJASONFILES: 4
+
+#Define variables which should be used for the training:
+#Variable1: Momentum
+#Variable2: NPE_LTCC
+#Variable3: NPE_HTCC
+#Variable4: Total deposited energy inside the calorimeter
+#Variable5: Total deposited energy inside the calorimeter divided by momentum
+#Variable6: Time from FTOF
+#Variable7: Classification output (should not be used)
+#Variable8: Deposited energy in inner part of EC
+#Variable9: Deposited energy in outer part of EC
+#Variable10: Sum of deposited energy in EC
+#Variable11: Deposited energy in PCAL
+VARS: variable1, variable2, variable3, variable8, variable9
+
+#Define classifier type and how many iterations to perform:
+CLASSIFIER: GBT
+NITERATIONS: 100
+
+#Set the percentage, which will be used for training and testing:
+#e.g. percentage: 30 means that 30% of the input data set will be used for training
+#and the remaining 70% are used for testing
+PERCENTAGE: 50
+
+#Name of the file where the classifier will be stored:
+CLASSINAME: GBT_V8
+
+#The following lines are only valid for neural network classifier:
+ARCHITECTURE: 6: 2
+
+
+

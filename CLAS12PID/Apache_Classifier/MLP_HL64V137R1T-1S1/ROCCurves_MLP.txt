@@ -1,0 +1,105 @@
+*****************************************************
+*                                                   *
+*         ROC-CURVES FOR THE MLP CLASSIFIER         *
+*                                                   *
+*****************************************************
+   
+ROC-Curve: Efficiency vs. Purity
+================================
+   
+Results for the signal:
+   
+EFFVSPURSIG: Probability: 0.0475 Efficiency: 100.0 [%] vs.  Purity: 56.943394575745174 [%]
+EFFVSPURSIG: Probability: 0.095 Efficiency: 96.80073421795277 [%] vs.  Purity: 79.70507098581172 [%]
+EFFVSPURSIG: Probability: 0.14250000000000002 Efficiency: 95.84374418811505 [%] vs.  Purity: 84.41284518009009 [%]
+EFFVSPURSIG: Probability: 0.19 Efficiency: 94.8666736746207 [%] vs.  Purity: 86.31099590836804 [%]
+EFFVSPURSIG: Probability: 0.2375 Efficiency: 93.7761282132143 [%] vs.  Purity: 87.61001110498364 [%]
+EFFVSPURSIG: Probability: 0.28500000000000003 Efficiency: 88.31019360820686 [%] vs.  Purity: 90.29966954494216 [%]
+EFFVSPURSIG: Probability: 0.3325 Efficiency: 82.37122210632144 [%] vs.  Purity: 92.57344688817231 [%]
+EFFVSPURSIG: Probability: 0.38 Efficiency: 72.75536580172341 [%] vs.  Purity: 93.64613762047169 [%]
+EFFVSPURSIG: Probability: 0.4275 Efficiency: 53.41017824461534 [%] vs.  Purity: 95.84466968001877 [%]
+EFFVSPURSIG: Probability: 0.475 Efficiency: 42.92129259016676 [%] vs.  Purity: 97.1215628154342 [%]
+EFFVSPURSIG: Probability: 0.5225 Efficiency: 40.640742627497595 [%] vs.  Purity: 98.48368565951347 [%]
+EFFVSPURSIG: Probability: 0.5700000000000001 Efficiency: 39.98064726541548 [%] vs.  Purity: 99.36361626730796 [%]
+EFFVSPURSIG: Probability: 0.6175 Efficiency: 39.39494403070562 [%] vs.  Purity: 99.7325145001706 [%]
+EFFVSPURSIG: Probability: 0.665 Efficiency: 38.7022347287248 [%] vs.  Purity: 99.84354682817269 [%]
+EFFVSPURSIG: Probability: 0.7125 Efficiency: 38.001439325942634 [%] vs.  Purity: 99.89796785987586 [%]
+EFFVSPURSIG: Probability: 0.76 Efficiency: 37.462635475880504 [%] vs.  Purity: 99.94427126590516 [%]
+EFFVSPURSIG: Probability: 0.8075 Efficiency: 37.04161916082446 [%] vs.  Purity: 99.97090210741487 [%]
+EFFVSPURSIG: Probability: 0.855 Efficiency: 36.71547976183738 [%] vs.  Purity: 99.98201722676278 [%]
+EFFVSPURSIG: Probability: 0.9025 Efficiency: 36.285164430859794 [%] vs.  Purity: 99.99071550065734 [%]
+EFFVSPURSIG: Probability: 0.95 Efficiency: 34.838291460808016 [%] vs.  Purity: 99.99574494422009 [%]
+   
+Results for the background:
+   
+EFFVSPURBKG: Probability: 0.0475 Efficiency: 0.0 [%] vs. Purity: NaN [%]
+EFFVSPURBKG: Probability: 0.095 Efficiency: 67.4025369880886 [%] vs. Purity: 94.09340966940113 [%]
+EFFVSPURBKG: Probability: 0.14250000000000002 Efficiency: 76.59408368816827 [%] vs. Purity: 93.30406576084832 [%]
+EFFVSPURBKG: Probability: 0.19 Efficiency: 80.10137971229408 [%] vs. Purity: 92.18676282958569 [%]
+EFFVSPURBKG: Probability: 0.2375 Efficiency: 82.46066812937677 [%] vs. Purity: 90.92397339019524 [%]
+EFFVSPURBKG: Probability: 0.28500000000000003 Efficiency: 87.45372590048463 [%] vs. Purity: 84.97766739925218 [%]
+EFFVSPURBKG: Probability: 0.3325 Efficiency: 91.26063390837685 [%] vs. Purity: 79.65135633771705 [%]
+EFFVSPURBKG: Probability: 0.38 Efficiency: 93.47145309138611 [%] vs. Purity: 72.17698038368322 [%]
+EFFVSPURBKG: Probability: 0.4275 Efficiency: 96.93757697497055 [%] vs. Purity: 61.13862721733852 [%]
+EFFVSPURBKG: Probability: 0.475 Efficiency: 98.31764573779228 [%] vs. Purity: 56.56759151393834 [%]
+EFFVSPURBKG: Probability: 0.5225 Efficiency: 99.17245779855594 [%] vs. Purity: 55.8163050347588 [%]
+EFFVSPURBKG: Probability: 0.5700000000000001 Efficiency: 99.66135468818787 [%] vs. Purity: 55.664796104771376 [%]
+EFFVSPURBKG: Probability: 0.6175 Efficiency: 99.86026425028383 [%] vs. Purity: 55.47425525236813 [%]
+EFFVSPURBKG: Probability: 0.665 Efficiency: 99.91979453141292 [%] vs. Purity: 55.20810047200888 [%]
+EFFVSPURBKG: Probability: 0.7125 Efficiency: 99.94866850010426 [%] vs. Purity: 54.933978834434264 [%]
+EFFVSPURBKG: Probability: 0.76 Efficiency: 99.97237367193111 [%] vs. Purity: 54.725544909945945 [%]
+EFFVSPURBKG: Probability: 0.8075 Efficiency: 99.98574125002897 [%] vs. Purity: 54.562564011286405 [%]
+EFFVSPURBKG: Probability: 0.855 Efficiency: 99.99126651564274 [%] vs. Purity: 54.43580861448296 [%]
+EFFVSPURBKG: Probability: 0.9025 Efficiency: 99.99554414063405 [%] vs. Purity: 54.2687368145118 [%]
+EFFVSPURBKG: Probability: 0.95 Efficiency: 99.99803942187899 [%] vs. Purity: 53.711573422991755 [%]
+   
+ROC-Curve: Efficiency vs. False Positve/Negative Rate
+=====================================================
+   
+Results for the signal:
+   
+EFFVSFPNRSIG: Probability: 0.0475 Efficiency: 100.0 [%] vs. False Positive Rate: 100.0 [%]
+EFFVSFPNRSIG: Probability: 0.095 Efficiency: 96.80073421795277 [%] vs. False Positive Rate: 32.5974630119114 [%]
+EFFVSFPNRSIG: Probability: 0.14250000000000002 Efficiency: 95.84374418811505 [%] vs. False Positive Rate: 23.40591631183173 [%]
+EFFVSFPNRSIG: Probability: 0.19 Efficiency: 94.8666736746207 [%] vs. False Positive Rate: 19.898620287705928 [%]
+EFFVSFPNRSIG: Probability: 0.2375 Efficiency: 93.7761282132143 [%] vs. False Positive Rate: 17.539331870623233 [%]
+EFFVSFPNRSIG: Probability: 0.28500000000000003 Efficiency: 88.31019360820686 [%] vs. False Positive Rate: 12.546274099515381 [%]
+EFFVSFPNRSIG: Probability: 0.3325 Efficiency: 82.37122210632144 [%] vs. False Positive Rate: 8.739366091623163 [%]
+EFFVSFPNRSIG: Probability: 0.38 Efficiency: 72.75536580172341 [%] vs. False Positive Rate: 6.5285469086138885 [%]
+EFFVSFPNRSIG: Probability: 0.4275 Efficiency: 53.41017824461534 [%] vs. False Positive Rate: 3.0624230250294535 [%]
+EFFVSFPNRSIG: Probability: 0.475 Efficiency: 42.92129259016676 [%] vs. False Positive Rate: 1.6823542622077179 [%]
+EFFVSFPNRSIG: Probability: 0.5225 Efficiency: 40.640742627497595 [%] vs. False Positive Rate: 0.8275422014440549 [%]
+EFFVSFPNRSIG: Probability: 0.5700000000000001 Efficiency: 39.98064726541548 [%] vs. False Positive Rate: 0.33864531181212676 [%]
+EFFVSFPNRSIG: Probability: 0.6175 Efficiency: 39.39494403070562 [%] vs. False Positive Rate: 0.13973574971616176 [%]
+EFFVSFPNRSIG: Probability: 0.665 Efficiency: 38.7022347287248 [%] vs. False Positive Rate: 0.08020546858708265 [%]
+EFFVSFPNRSIG: Probability: 0.7125 Efficiency: 38.001439325942634 [%] vs. False Positive Rate: 0.05133149989573289 [%]
+EFFVSFPNRSIG: Probability: 0.76 Efficiency: 37.462635475880504 [%] vs. False Positive Rate: 0.027626328068884022 [%]
+EFFVSFPNRSIG: Probability: 0.8075 Efficiency: 37.04161916082446 [%] vs. False Positive Rate: 0.014258749971036915 [%]
+EFFVSFPNRSIG: Probability: 0.855 Efficiency: 36.71547976183738 [%] vs. False Positive Rate: 0.00873348435726011 [%]
+EFFVSFPNRSIG: Probability: 0.9025 Efficiency: 36.285164430859794 [%] vs. False Positive Rate: 0.004455859365949035 [%]
+EFFVSFPNRSIG: Probability: 0.95 Efficiency: 34.838291460808016 [%] vs. False Positive Rate: 0.001960578121017576 [%]
+   
+Results for the background:
+   
+EFFVSFPNRBKG: Probability: 0.0475 Efficiency: 0.0 [%] vs. False Negative Rate: 0.0 [%]
+EFFVSFPNRBKG: Probability: 0.095 Efficiency: 67.4025369880886 [%] vs. False Negative Rate: 3.199265782047239 [%]
+EFFVSFPNRBKG: Probability: 0.14250000000000002 Efficiency: 76.59408368816827 [%] vs. False Negative Rate: 4.156255811884951 [%]
+EFFVSFPNRBKG: Probability: 0.19 Efficiency: 80.10137971229408 [%] vs. False Negative Rate: 5.133326325379305 [%]
+EFFVSFPNRBKG: Probability: 0.2375 Efficiency: 82.46066812937677 [%] vs. False Negative Rate: 6.223871786785693 [%]
+EFFVSFPNRBKG: Probability: 0.28500000000000003 Efficiency: 87.45372590048463 [%] vs. False Negative Rate: 11.689806391793146 [%]
+EFFVSFPNRBKG: Probability: 0.3325 Efficiency: 91.26063390837685 [%] vs. False Negative Rate: 17.628777893678556 [%]
+EFFVSFPNRBKG: Probability: 0.38 Efficiency: 93.47145309138611 [%] vs. False Negative Rate: 27.244634198276586 [%]
+EFFVSFPNRBKG: Probability: 0.4275 Efficiency: 96.93757697497055 [%] vs. False Negative Rate: 46.58982175538467 [%]
+EFFVSFPNRBKG: Probability: 0.475 Efficiency: 98.31764573779228 [%] vs. False Negative Rate: 57.07870740983324 [%]
+EFFVSFPNRBKG: Probability: 0.5225 Efficiency: 99.17245779855594 [%] vs. False Negative Rate: 59.359257372502405 [%]
+EFFVSFPNRBKG: Probability: 0.5700000000000001 Efficiency: 99.66135468818787 [%] vs. False Negative Rate: 60.019352734584515 [%]
+EFFVSFPNRBKG: Probability: 0.6175 Efficiency: 99.86026425028383 [%] vs. False Negative Rate: 60.605055969294376 [%]
+EFFVSFPNRBKG: Probability: 0.665 Efficiency: 99.91979453141292 [%] vs. False Negative Rate: 61.2977652712752 [%]
+EFFVSFPNRBKG: Probability: 0.7125 Efficiency: 99.94866850010426 [%] vs. False Negative Rate: 61.998560674057366 [%]
+EFFVSFPNRBKG: Probability: 0.76 Efficiency: 99.97237367193111 [%] vs. False Negative Rate: 62.53736452411949 [%]
+EFFVSFPNRBKG: Probability: 0.8075 Efficiency: 99.98574125002897 [%] vs. False Negative Rate: 62.95838083917554 [%]
+EFFVSFPNRBKG: Probability: 0.855 Efficiency: 99.99126651564274 [%] vs. False Negative Rate: 63.28452023816262 [%]
+EFFVSFPNRBKG: Probability: 0.9025 Efficiency: 99.99554414063405 [%] vs. False Negative Rate: 63.714835569140206 [%]
+EFFVSFPNRBKG: Probability: 0.95 Efficiency: 99.99803942187899 [%] vs. False Negative Rate: 65.16170853919199 [%]
+   
+************************ FIN ************************

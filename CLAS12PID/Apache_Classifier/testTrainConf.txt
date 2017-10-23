@@ -1,0 +1,48 @@
+#This is the configuration file, used for training a classifier with a given data set
+#======================================================================================
+
+#Specifiy directory, folder and name of the training data set:
+BASEDIR: /Users/lersch/Desktop/CLAS/NN_studies/Apache_Classifier/
+DATADIR: /Users/lersch/Desktop/CLAS/NN_studies/Apache_Classifier/
+TRAININGDATA: trainingDataR1T-1S1
+NJASONFILES: 4
+
+#Define variables which should be used for the training:
+#Variable1: Momentum
+#Variable2: Theta
+#Variable3: Phi
+#Variable4: NPE_LTCC
+#Variable5: NPE_HTCC
+#Variable6: dE_ECin
+#Variable7: dE_ECout
+#Variable8: dE_PCAL
+#Variable9: dE_CAL
+#Variable10: dE_CAL_PER_MOM
+#Variable11: TOF
+
+VARS: variable1, variable4, variable5, variable9
+
+#Define classifier type and how many iterations to perform:
+CLASSIFIER: MLP
+NITERATIONS: 5
+TRAININGMODE: slow
+
+#Set the percentage, which will be used for training and testing:
+#e.g. percentage: 30 means that 30% of the input data set will be used for training
+#and the remaining 70% are used for testing
+PERCENTAGE: 50
+
+#Name of the file where the classifier will be stored:
+CLASSINAME: MLP_VX
+
+#The following lines set the classifiers features:
+MLP-ARCHITECTURE: 7: 2
+MLP-SOLVER: l-bfgs
+
+GBT-DEPTH: 10
+
+SVM-REGPARAM: 0.001
+
+kMEANS-NCLU: 2
+
+

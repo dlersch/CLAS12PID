@@ -1,0 +1,14 @@
+BASEDIR: /Users/lersch/Desktop/CLAS/NN_studies/Apache_Classifier/
+DATADIR: /Volumes/DataStorage/CLAS12/ClassificationStudies/Tor-1Sol1/
+INPUTFILES: single_electrons, single_npions
+PARTICLE: electron, pion
+SPECIES: 1, 0
+CHARGE: -1, -1
+NUMBEROFFILES: 2, 20
+FIRSTFILE: 1, 9
+VARS: variable1, variable4, variable5, variable6, variable7, variable8
+OUTPUTFILE: /Users/lersch/Desktop/CLAS/NN_studies/Apache_Classifier/ElPiSample
+NCORES: 4
+MODE: L, M, MLP, MLP_HL85V123456N6000R1T-1S1
+PROB-CUT: 0.57
+
